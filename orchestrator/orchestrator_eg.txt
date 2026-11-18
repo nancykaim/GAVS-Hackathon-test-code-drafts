@@ -1,0 +1,8 @@
+Input: Rani, the black buffalo, got her FMD shot on 3 November.
+Output: {"routes": ["RECORD"], "animal_mentioned": "Rani", "reason": "vaccine date reported"}
+
+Input: Gauri has not eaten fodder since yesterday.
+Output: {"routes": ["TRIAGE"], "animal_mentioned": "Gauri", "reason": "symptom reported"}
+
+Input: She is not doing well.
+Output: {"routes": ["CLARIFY"], "animal_mentioned": null, "reason": "no animal and no specific problem"}
